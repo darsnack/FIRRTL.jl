@@ -1,5 +1,8 @@
 module FIRRTL
 
-greet() = print("Hello World!")
+export GroundType, Clock, UInteger, SInteger, Analog, BundleUnit, Bundle
+export ispassive, ==, ≈
+
+include("types.jl")
 
 end # module
